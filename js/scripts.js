@@ -14,3 +14,19 @@ var sidec=parseFloat(line3);
 /*******put the values in an array*****/
 
 var sides=[sidea,sideb,sidec];
+
+/********the output******/
+
+var type=["make an equilateral triangle", "make an isoseles triangle", "makes a scalene triangle","dosent make a triangle"]
+
+/**********determine type of triangle formed*****/
+
+
+
+
+
+
+
+
+
+
