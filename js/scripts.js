@@ -1,4 +1,4 @@
-
+function check(){
 /*******collect the values of the triangle*****/
 
 var line1=document.getElementById("sideA").value;
@@ -20,8 +20,15 @@ var sides=[sidea,sideb,sidec];
 var type=["make an equilateral triangle", "make an isoseles triangle", "makes a scalene triangle","dosent make a triangle"]
 
 /**********determine type of triangle formed*****/
-
-
+    if(sides[0] <=0 || sides[1] <=0 || sides[2] <=0){
+        var firstOutput=sides[0]+" "+sides[1]+" "+sides[2]+" "+type[3];
+        document.getElementById("trackOutput").innerHTML=firstOutput;
+      } 
+    else if(sides[0]===sides[1] && sides[1]===sides[2] && sides[2]===sides[0]){
+        var secondOutput=sides[0]+" "+sides[1]+" "+sides[2]+" "+type[0];
+        document.getElementById("trackOutput").innerHTML=secondOutput;
+      }
+}
 
 
 
