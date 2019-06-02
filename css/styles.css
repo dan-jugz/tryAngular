@@ -1,17 +1,20 @@
-body {
-    background-image: url(/img/)
-    position: fixed;
-    height: 100%;
-    }
-
-    #form_data {
-        background-color: #D0E9FB;
-        height: 280px;
-        width: 320px;
-        border-radius: 20px;
-        box-shadow: 2px 2px 6px;
+#form_data {
+    background-color: #D0E9FB;
+    height: 280px;
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px;
       }
-
+.send {
+    background-color: #A2F875;
+    height: 30px;
+    border-radius: 10px;
+      }
+.change {
+    background-color: #FC766B;
+    height: 30px;
+    border-radius: 10px;
+      }
 
 
 
