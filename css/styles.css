@@ -15,6 +15,15 @@
     height: 30px;
     border-radius: 10px;
       }
+#info {
+    display: flex;
+    align-content: center;
+    padding-left: 20px;
+      }
+input {
+    height: 25px;
+    border-radius: 10px;
+      }
 
 
 
