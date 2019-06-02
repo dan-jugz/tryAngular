@@ -28,6 +28,13 @@ var type=["make an equilateral triangle", "make an isoseles triangle", "makes a 
         var secondOutput=sides[0]+" "+sides[1]+" "+sides[2]+" "+type[0];
         document.getElementById("trackOutput").innerHTML=secondOutput;
       }
+      else if(sides[0]===sides[1] || sides[0]===sides[2] || sides[1]===sides[2]){
+        var thirdOutput=sides[0]+" "+sides[1]+" "+sides[2]+" "+type[1];
+        document.getElementById("trackOutput").innerHTML=thirdOutput;
+      }
+      else if(sides[0]!==sides[1] && sides[0]!==sides[2] && sides[2]!==sides[1] && sides[0]+sides[1]>sides[2] && sides[1]+sides[2]>sides[0] && sides[2]+sides[0]>sides[1]){
+        var fourthOutput=sides[0]+" "+sides[1]+" "+sides[2]+" "+type[2];
+        document.getElementById("trackOutput").innerHTML=fourthOutput;
 }
 
 
