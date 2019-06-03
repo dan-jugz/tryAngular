@@ -2,7 +2,7 @@
 The best program to determine the type of triangle you have with any values, Friday 31st May,Vrsn 1.0
 By Daniel Njuguna
 # Description
-github repository https://github.com/dan-jugz/tracker gh-page :https://dan-jugz.github.io/tracker 
+Github repository https://github.com/dan-jugz/tryAngular gh-page https://github.com/dan-jugz/tryAngular/tree/gh-pages 
 This webapp is designed to help a user check which type of triangle it is according to the lengths he/she has input.
 Irrespective of how big the figures are,the program validates whether the three sides input can form any of the three types of trinagles:Equilateral,isosceles or scalene.However, when the users values don't pass any of the checks,the program will inform you the dimensions used can't form a triangle
 # Features
