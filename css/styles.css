@@ -27,16 +27,28 @@ input {
 #trackOutput {
     color: #000000;
     font-size: 20px;
-      }
+}
+h2 {
+  color: antiquewhite;
+}
+
+
+
 /***MEDIA QUERY FOR LARGE SCREENS****/
 
-@media screen and (min-width:800px){
+@media screen and (min-width:700px){
   .col {
    width: 200px;
    font-size: 17px;
-   padding-left: 150px;
    background-color: #FBF0F6;
    opacity: 0.6;
    box-shadow: 1px 1px 2px;
+  }.col>img{
+    height:100px;
+    width:170px;
+  }
+  .load{
+    height: 70px;
+    border-radius: 35px;
   }
 
