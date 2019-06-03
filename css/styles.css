@@ -1,8 +1,18 @@
-center {
-color: white;
+body{
+  background-image: url("/img/giphy.gif");
+  background-color: #cccccc;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-output {
-  color: white
+#form_data {
+  background-color: #D0E9FB;
+  height: 280px;
+  width: 320px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 6px;
 }
 .send {
     background-color: rgb(153, 240, 107);
@@ -17,7 +27,7 @@ output {
 #info {
     display: flex;
     align-content: center;
-    padding-left: 20px;
+    padding-left: 35%;
       }
 input {
     height: 25px;
@@ -27,8 +37,8 @@ input {
     color: #000000;
     font-size: 20px;
 }
-h2 {
-  color: antiquewhite;
+h1 {
+  color: rgb(240, 237, 234);
 }
 
 
