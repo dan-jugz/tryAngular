@@ -40,7 +40,35 @@ h2 {
   .col {
    width: 200px;
    font-size: 17px;
+   padding-left: 150px;
    background-color: #FBF0F6;
+   opacity: 0.6;
    box-shadow: 1px 1px 2px;
   }
-
+  .col>img{
+      height:100px;
+      width:170px;
+    }
+    .load{
+      height: 70px;
+      border-radius: 35px;
+    }
+    /*****MEDIA QUERY FOR SMALL SCREENS******/
+  @media screen and (max-width:800px){
+    .col {
+     width: 200px;
+     font-size: 17px;
+     padding-left: 20px;
+     background-color: #FBF0F6;
+     opacity: 0.6;
+     box-shadow: 1px 1px 2px;
+    }
+    .col>img{
+        height:50px;
+        width:90px;
+      }
+      .load{
+        height: 50px;
+        border-radius: 25px;
+      }
+  }
