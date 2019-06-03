@@ -1,10 +1,9 @@
-#form_data {
-    background-color: #D0E9FB;
-    height: 280px;
-    width: 320px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 6px;
-      }
+center {
+color: white;
+}
+output {
+  color: white
+}
 .send {
     background-color: rgb(153, 240, 107);
     height: 30px;
