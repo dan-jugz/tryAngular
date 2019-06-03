@@ -10,7 +10,7 @@ Irrespective of how big the figures are,the program validates whether the three 
 * user friendly interface.
 * Easy to use.
 ## Setup/Installation Requirements
-* Go to my github repository :https://github.com/dan-jugz/tracker/new/master?readme=1 .
+* Go to my github repository https://github.com/dan-jugz/tryAngular/tree/master .
 * From this point,fork the repository to be able to clone or download.
 * Copy the link to clone/download.
 ## Behavior Driven Development 
