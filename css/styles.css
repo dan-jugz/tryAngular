@@ -28,6 +28,15 @@ input {
     color: #000000;
     font-size: 20px;
       }
+/***MEDIA QUERY FOR LARGE SCREENS****/
 
-
+@media screen and (min-width:800px){
+  .col {
+   width: 200px;
+   font-size: 17px;
+   padding-left: 150px;
+   background-color: #FBF0F6;
+   opacity: 0.6;
+   box-shadow: 1px 1px 2px;
+  }
 
