@@ -9,6 +9,11 @@ Irrespective of how big the figures are,the program validates whether the three 
 * Fast response to your data.
 * user friendly interface.
 * Easy to use.
+# Technologies used
+* HTML
+* CSS 
+* JAVASCRIPT
+* Favicon
 ## Setup/Installation Requirements
 * Go to my github repository https://github.com/dan-jugz/tryAngular/tree/master .
 * From this point,fork the repository to be able to clone or download.

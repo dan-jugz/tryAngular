@@ -1,24 +1,29 @@
 function check(){
+  /*USER INTERFACE LOGIC*/
 /*******collect the values of the triangle*****/
 
 var line1=document.getElementById("sideA").value;
 var line2=document.getElementById("sideB").value;
 var line3=document.getElementById("sideC").value;
 
+/*BUSINESS LOGIC*/
 /********turn the strings to integers*********/
 
 var sidea=parseFloat(line1);
 var sideb=parseFloat(line2);
 var sidec=parseFloat(line3);
 
+/*BUSINESS LOGIC*/
 /*******put the values in an array*****/
 
 var sides=[sidea,sideb,sidec];
 
+/*USER INTERFACE LOGIC*/
 /********the output******/
 
 var type=["make an equilateral triangle", "make an isoseles triangle", "makes a scalene triangle","dosent make a triangle"]
 
+/*BUSINESS LOGIC*/
 /**********determine type of triangle formed*****/
     if(sides[0] <=0 || sides[1] <=0 || sides[2] <=0){
         var firstOutput=sides[0]+" "+sides[1]+" "+sides[2]+" "+type[3];
@@ -46,8 +51,6 @@ var type=["make an equilateral triangle", "make an isoseles triangle", "makes a 
       }
 
 }
-
-
 
 
 
